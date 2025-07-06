@@ -24,9 +24,7 @@ const DataGridHeader: React.FC<DataGridHeaderProps> = ({
       {/* Grouped header row */}
       <tr>
         {/* # column: no header */}
-        <th
-          className="p-0 h-6 min-h-0 w-6 max-w-8 text-[10px] text-[#BCBCBC] bg-white border border-[#eeeeee] text-center"
-        ></th>
+        <th className="p-0 h-6 min-h-0 w-6 max-w-8 text-[10px] text-[#BCBCBC] bg-white border border-[#eeeeee] text-center"></th>
         {/* Q3 Financial Overview: spans columns 1-4 */}
         <th
           colSpan={4}
@@ -186,9 +184,7 @@ const DataGridHeader: React.FC<DataGridHeaderProps> = ({
       {/* Column header row (actual columns and resize handles) */}
       <tr>
         {/* # column */}
-        <th
-          className="bg-[#F7F8FA] border border-[#E3E5E8] p-0 h-6 min-h-0 w-6 max-w-8 text-[10px] font-bold text-[#3B3F4C] relative text-center"
-        >
+        <th className="bg-[#F7F8FA] border border-[#E3E5E8] p-0 h-6 min-h-0 w-6 max-w-8 text-[10px] font-bold text-[#3B3F4C] relative text-center">
           #
           <div
             onMouseDown={(e) => handleResizeMouseDown(e, 0)}
